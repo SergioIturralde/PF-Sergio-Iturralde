@@ -242,6 +242,11 @@ footer p {
   color: rgb(255, 255, 255);
   padding: 40px;
   background-color: rgba(24, 129, 161, 0.167);
+  text-align: center;
+}
+.biografia p{
+  text-shadow: 2px 2px black;
+  
 }
 
 /* pagina hablemos */

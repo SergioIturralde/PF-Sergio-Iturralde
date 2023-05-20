@@ -9,8 +9,8 @@ body {
   background-size: cover;
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
     ),
     url(../img/sit\ portada.jpg);
   background-repeat: no-repeat;
@@ -216,8 +216,9 @@ footer p {
   
 }
 .biografia{
-  color: rgb(224, 224, 224);
-  padding: 25px;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  background-color: rgba(24, 129, 161, 0.167);
 }
 
 /* pagina hablemos */
@@ -398,6 +399,7 @@ footer p {
   header nav {
     flex-direction: row;
     padding-right: 20px;
+    
   }
   .hero{
     background-size:cover;
@@ -438,6 +440,7 @@ footer p {
   .imgLibre img{
     width: 70%;
   }
+  
 }
 
 

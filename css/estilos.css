@@ -96,7 +96,7 @@ header a:hover {
   width: auto;
   height: auto;
   padding: 20px;
-  display: flex;
+  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -114,7 +114,7 @@ header a:hover {
   height: 350px;
   margin: 15px;
   padding: 5px;
-  border: 2px solid whitesmoke;
+  border: 2px solid rgb(210, 208, 208);
 }
 .beats p {
   width: 350px;
@@ -122,12 +122,35 @@ header a:hover {
   margin: 2px;
   padding: 20px;
   color: white;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.405);
+  border-radius: 5px;
   font-size: 18px;
   font-style: italic;
   text-align: center;
 }
+/* boton ir arriba */
+.botton-up{
+  width: 60px;
+  height: 60px;
+  /* background: rgba(0, 208, 255, 0.374); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99;
+  cursor: pointer;
+  border: 4px solid transparent;
+  transition: all 500ms ease;
 
+}
+.botton-up:hover{
+  transform: scale(1.1);
+  border-color: rgba(0,0,0,0.1);
+}
 /* pie de pagina */
 
 footer {

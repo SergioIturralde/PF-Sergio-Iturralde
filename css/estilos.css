@@ -178,6 +178,17 @@ h2{
 }
 /* pie de pagina */
 
+.redesFooter a {
+  color: rgb(0, 0, 0);
+  display: inline;
+  align-items: center;
+  padding: 20px;
+  
+}
+.redesFooter img{
+  padding-top: 15px;
+  
+}
 footer {
   width: auto;
   height: 110px;
@@ -188,14 +199,11 @@ footer {
 }
 footer p {
   padding: 15px;
-  font-size: 20px;
+  font-size: 13px;
   color: aliceblue;
 }
-.redesFooter a {
-  color: rgb(255, 255, 255);
-  display: inline;
-  align-items: center;
-  padding: 20px;
+footer span{
+  font-size: 15px;
 }
 
 /* Pagina librerias */

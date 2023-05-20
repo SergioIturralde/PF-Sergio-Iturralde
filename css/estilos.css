@@ -261,6 +261,7 @@ button .btnQuien {
   display: flex;
   justify-content:center;
 }
+
 button .btnQuien:hover {
   background-color: rgba(0, 200, 255, 0.542);
 }

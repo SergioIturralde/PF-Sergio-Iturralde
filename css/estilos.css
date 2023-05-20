@@ -441,7 +441,7 @@ footer p {
 }
 
 
-@media (max-width:375px){
+@media (max-width:390px){
   .hero h1{
     font-size:35px ;
   }
@@ -470,6 +470,17 @@ footer p {
   .imgLibre img{
     width: 80%;
   }
-
-
+  .hablemos{
+    width: 80%;
+    
+  }
+  .text, .text1, .enviar1{
+    width: 80%;
+  }
+  .registro{
+    width: 80%;
+  }
+  .registro1{
+    width: 80%;
+  }
 }

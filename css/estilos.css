@@ -385,7 +385,15 @@ footer p {
     background-size:cover;
     background-position: center;
   }
-  
+  .librerias {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+  }
 }
 
 @media (max-width:562px){
@@ -400,17 +408,25 @@ footer p {
     width: 250px;
     height: 250px;
   }
-
+  .librerias {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+  }
  
 }
 
 
 @media (max-width:375px){
   .hero h1{
-    font-size:40px ;
+    font-size:35px ;
   }
   .hero{
-    background-size: 375px;
+    /* background-size: 375px; */
     background-size: cover;
     background-position: center;
   }
@@ -422,7 +438,15 @@ footer p {
   .beats p{
     font-size: 15px;
   }
-
+  .librerias {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+  }
 
 
 }

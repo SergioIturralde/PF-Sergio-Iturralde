@@ -248,7 +248,20 @@ footer p {
   text-shadow: 2px 2px black;
   
 }
-
+.btnQuien {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 14px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  background-color: rgb(0, 200, 255);
+}
+button:hover {
+  background-color: rgba(0, 200, 255, 0.542);
+}
 /* pagina hablemos */
 
 .hablemos {
